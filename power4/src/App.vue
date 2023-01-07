@@ -1,12 +1,16 @@
 <template>
   <div id="app">
-    <router-view/>
+    <power-4 />
   </div>
 </template>
 
 <script>
+import Power4 from './components/Power4.vue'
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    'power-4': Power4,
+  }
 }
 </script>
 
